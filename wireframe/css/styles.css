@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container{
@@ -11,18 +11,26 @@
 
 /* header */
 
+header{
+    padding: 20px;
+}
+
 h1{
     text-align: center;
 }
 
 /* nav */
 
+nav{
+    background: #BCBCBC;
+    padding: 24px 0;
+}
+
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
 
 nav ul li a{
     color: #000;
@@ -61,6 +69,10 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.posts .card{
+    width: 360px;
+}
+
 .posts img{
     border-radius: 20px 20px  0 0;
 }
@@ -86,4 +98,66 @@ nav ul li a:hover{
     padding: 10px 24px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.posts a:hover{
+    background: #65558F;
+}
+
+.posts .footer-card{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-top .container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CAC4D0;
+    margin: auto;
+
+  }
+
+.footer-top a{
+    display: block;
+    text-decoration: none ;
+    margin-bottom: 28px;
+    color: #1D1B20;
+
+}
+
+.novidades h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 64px;
+    
+}
+
+.novidades .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 64px;
+    
+}
+
+.time .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time .card h3{
+    text-align: center;
+}
+.time .card h4{
+    text-align: center;
+}
+.time{
+    margin-bottom: 60px;
 }
